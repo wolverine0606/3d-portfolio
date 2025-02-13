@@ -2,9 +2,17 @@ import close from "./close.svg";
 import logo from "./logo.svg";
 import menu from "./menu.svg";
 
-import algorithms from "./algorithms.png";
-import devnotes from "./devnotes.png";
-import oscs from "./oscs.png";
+import macosStructur from "./macosStructure.png";
+import weatheForecast from "./weatherForecast.png";
+import meetUpScreens from "./meetUpScreens.png";
+import home from "./house.png";
 
-export { algorithms, close, devnotes, logo, menu, oscs };
-
+export {
+  close,
+  logo,
+  menu,
+  macosStructur,
+  weatheForecast,
+  meetUpScreens,
+  home,
+};

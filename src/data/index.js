@@ -1,8 +1,4 @@
-import {
-  algorithms,
-  devnotes,
-  oscs,
-} from "../assets";
+import { macosStructur, weatheForecast, meetUpScreens } from "../assets";
 
 export const navLinks = [
   {
@@ -17,75 +13,41 @@ export const navLinks = [
     id: "experience",
     title: "Experience",
   },
-  {
-    id: "contact",
-    title: "Contact",
-  },
 ];
 
 const experiences = [
   {
-    title: "YouTube Content Creator",
-    company_name: "Self Employed",
-    date: "2016 - Present",
+    title: "React native Developer",
+    company_name: "Muuvr Labs AG",
+    date: "07.2023-07.2024",
     details: [
-      "Built a subscriber base of over <span style='color: white;'>500,000 subscribers</span> by creating video content to help programmers.",
-      "Crafted visually appealling programming videos that have garnered over <span style='color: white;'>30,000,000 views</span>.",
-      "Produced high-quality educational and entertaining videos for clients including <span style='color: white;'>Intel, JetBrains, and MicroCenter</span>.",
-    ],
-  },
-  {
-    title: "Software Developer",
-    company_name: "Indie",
-    date: "2019 - 2023",
-    details: [
-      "Developed and delivered custom interdisciplinary coding portfolio for clients including <span style='color: white;'>Nvidia, Hostinger, and Amazon</span>.",
-      "<span style='color: white;'>Designed and developed innovative</span> AI applications and interactive websites.",
-      "<span style='color: white;'>Managed full project lifecycle</span> from concept to deployment in successful and timely project completions.",
-    ],
-  },
-  {
-    title: "Software Engineer",
-    company_name: "Prime 3",
-    date: "2018 - 2019",
-    details: [
-      "Built custom enterprise applications for a <span style='color: white;'>Fortune 500 company</span> as a full-stack software engineer.",
-      "Developed and maintained <span style='color: white;'>scalable backend services</span>, ensuring high availability for critical business applications.",
-      "<span style='color: white;'>Collaborated with a team</span> to design and implement front-end interfaces.",
-    ],
-  },
-  {
-    title: "Computer Science",
-    company_name: "ODU",
-    date: "2015 - 2018",
-    details: [
-      "Built a <span style='color: white;'>computer science foundation</span> learning theory, computer architecture, and software engineering.",
-      "Worked and interned at <span style='color: white;'>NASA and Norfolk Southern Railway</span> to gain practical experience in the field of data analysis.",
-      "Acted as a member of the <span style='color: white;'>Association for Computing Machinery</span> (ACM).",
+      "<span style='color: white;'>Development of mobile features</span> with a focus on efficient coding and <span style='color: white;'>performance optimization</span>.",
+      "Integration of <span style='color: white;'>Ready Player Me</span> services to enable custom avatars and personalization.",
+      "Creation of <span style='color: white;'>complex animations</span> to enhance user experience <span style='color: white;'>(UI/UX)</span>.",
+      "Collaboration with the design team to <span style='color: white;'>optimize UI flow and user-friendliness</span>.",
     ],
   },
 ];
 
 const portfolio = [
   {
-    name: "Open Source Computer Science Repo",
+    name: "Weather Forecast React Native App",
     description:
-      "A GitHub repo with over 17,000 stars containing a curated list of free online courses from reputable universities that satisfy undergraduate computer science requirements.",
-    image: oscs,
+      "The goal of this project is to boost my knowledge in Reanimated, Skia Components, and Component Management in React Native. It showcases the design concepts in a fully functional React Native app built with Expo.",
+    image: weatheForecast,
   },
   {
-    name: "Dev Notes",
+    name: "Meetup Event Planner Clone",
     description:
-      "A newsletter with over 6,000 readers made for software developers to keep up with this rapidly evolving industry, with a sister platform in progress.",
-    image: devnotes,
+      "MeetUp is a React Native mobile application designed to help people discover and create local events, connect with like-minded individuals, and build thriving communities.",
+    image: meetUpScreens,
   },
   {
-    name: "Visually Understanding Algorithms",
+    name: "Macos Book Management App",
     description:
-      "A showcase of animated algorithms coded using TypeScript, with the video garnering over 400,000 views.",
-    image: algorithms,
+      "A Book Manager application built with React Native, using Redux Toolkit for state management and styled with @shopify/restyle for a scalable and flexible design system. The app also leverages React Navigation’s Stack Navigation to handle screen transitions smoothly.",
+    image: macosStructur,
   },
 ];
 
 export { experiences, portfolio };
-
